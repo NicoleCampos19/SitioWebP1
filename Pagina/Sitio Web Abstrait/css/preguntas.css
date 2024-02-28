@@ -1,0 +1,132 @@
+body{
+    background-image: url(../img/fondoFAQ.png);
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    background-color: #2E302B;
+    z-index:99999;
+    opacity: 0.98;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+.nav-link:active {
+    color: #ffffff !important;
+}
+
+.nav-link:visited {
+    color: #ffffff !important;
+}
+
+.navbar-toggler{
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh; 
+}
+
+footer{
+    background-color: #000000;
+}
+
+.content {
+    flex-grow: 1; 
+}
+
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.texto2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+div .col > a:link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+  text-decoration: none;
+}
+
+div .col > a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+  text-decoration: none;
+}
+
+div .col > a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #cfcfcf;
+  text-decoration: none;
+}
+
+div .col > a:active {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+  text-decoration: none;
+}
+
+a{
+    border:none !important;
+    outline:none !important;
+}
+
+.textoA{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.linea{
+    border-left: 2px solid #ffffff;
+    height: 250px;
+    margin: 0 auto;
+    width: 2px;
+}
+
+.bannerFAQ{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.accordion-button{
+    color: #000000;
+    background-color: #E6E8E4;
+}
+
+.accordion-body{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.accordion{
+    --bs-accordion-active-bg: #dadada;
+}
+
+.accordion{
+    --bs-accordion-btn-focus-box-shadow: #ffffff;
+}
