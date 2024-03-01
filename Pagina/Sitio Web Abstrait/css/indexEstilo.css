@@ -1,3 +1,29 @@
+
+
+#division{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#menu{
+    width: 100%;
+    padding: 10px 0px 0px 20px;
+    background-color: aquamarine;
+    
+}
+
+header{
+ display: flex;
+}
+
+#titulo{
+    padding-left: 20px;
+}
+
 .navbar{
     overflow: hidden;
     position: fixed;
@@ -7,6 +33,8 @@
     z-index:99999;
     opacity: 0.98;
 }
+
+
 
 .nav-link{
     color: #ffffff;
