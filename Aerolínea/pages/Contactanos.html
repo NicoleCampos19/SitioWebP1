@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/icon.png">
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/contactoCSS.css" rel="stylesheet">
+    <script src="../js/menuPages.js" defer></script>
+    <script src="../js/footerPages.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript"> emailjs.init('9V46RTam2GXswDd5d') </script>
+
+    <title>Contáctanos | Abstrait</title>
+</head>
+<body>
+
+<div id="menuContenedor"></div>
+<br>
+<br>
+  <div class="container">
+      <form id="form">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Formulario de Contacto</h2>
+        <div class="field">
+          <label for="from_name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" name="from_name" id="from_name" placeholder="Nombre" required>
+        </div>
+        <div class="field">
+          <label for="email_id" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" name="email_id" id="email_id" placeholder="Nombre@Ejemplo.com" required>
+        </div>
+        <div class="field">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea type="text" class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Ingrese su mensaje" required></textarea>
+        </div>
+        <br>
+        <input type="submit" id="button" value="Enviar" class="btn btn-dark">
+      </form>
+
+    </form>
+  </div>
+  
+<div id="footerContenedor"></div>
+
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<script src="../js/contacto.js"></script>
+<script src="../js/cargarMenuPages.js"></script>
+<script src="../js/cargarFooterPages.js"></script>
+</body>
+</html>
