@@ -1,6 +1,6 @@
 function generarFooterIndex()
 {
-    const footerIndex = `<footer class="bg-dark text-white text-center py-3 mt-5">
+    const footerIndex = `<footer class="bg-warning text-white text-center py-3 mt-5">
     <div class="container text-center">
         <div class="row row-cols-12">
             <div class="col">
