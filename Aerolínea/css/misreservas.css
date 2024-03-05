@@ -74,3 +74,9 @@
     color: var(--color-cta);
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
+
+.subtitle{
+
+    text-align: center;
+    font-size: 45px;
+}
