@@ -96,11 +96,13 @@ a{
 .imagen{
     width: 100%;
 }
+
 .cont2{
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to right, #4970C8 , #4f4f4f);
+    background-image: linear-gradient(to right, #000000 , #4970c8);
 }
+
 
 .cont3{
     margin: 5px;
@@ -122,34 +124,6 @@ a{
 }
 
 
-
-
-
-
-.imagenLetras{
-    width: 98%;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-div.gallery img {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-}
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
   
 .responsive {
     padding: 0 6px;
@@ -164,68 +138,11 @@ div.gallery img {
     background-image: linear-gradient(to right, #4970c8 , #000000);
 }
 
-.shrink{ 
-    transition: all .2s ease-in-out; 
-    }
-    
-.shrink:hover{ 
-    transform: scale(0.9); 
-    }
 
-.vlogos{
-    display: flex;
-    flex-direction: row;
-}
 
-.vtamano{
-    width: 375px;
-    height: 375px;
-}
 
-.info1{
-  margin: 10px;
-  padding: 15px;
-  text-align: center;
-  font-size: large;
-}
 
-.col1{
-  background-color: #ffffff;
-  margin: 5px;
-  border: solid 1px #000000;
-  border-radius: 5%;
-  text-align: center;
-}
 
-.sizeBruno{
-  width: 30%;
-}
-
-.elementos{
-  background-color: #E6E8E4;
-  color: #000000;
-}
-
-.cont9{
-  display: flex;
-  align-items: center;
-  background-image: linear-gradient(to right, #2E302B , #525D51);
-}
-
-.texto14{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 35px;
-  font-weight: bold;
-  color: #f3f3f3;
-  margin: 5px;
-}
-
-.texto15{
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #f3f3f3;
-  margin: 5px;
-}
 
 
   
