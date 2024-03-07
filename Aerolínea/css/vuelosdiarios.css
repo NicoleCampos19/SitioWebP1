@@ -1,0 +1,54 @@
+#cabezeravuelossemanales{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 20px;
+    border-left: 3px solid red;
+}
+
+#contenedordeinline{
+    display: flex;
+    border: 1px gray solid;
+    justify-content: space-between;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#globouno{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding: 10px;
+}
+
+#globodos{
+    display: flex;
+    padding: 10px;
+    width: 25%;
+    justify-content: space-between;
+
+}
+
+#globotres{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 18%;
+}
+
+#letrarr{
+    color: gray;
+}
+h6{
+    display: flex;
+    align-content: center;
+}
+
+#letrabo{
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px 5px 5px 5px;
+    padding: 3px;
+}
+
+#ter{
+    color: grey;
+}
