@@ -1,21 +1,21 @@
 const selectOpcion = document.getElementById("selectorLicencia");
-const PreciolicenciaEstandar = 199;
-const PreciolicenciaPremium = 399;
-const selectorLicencia = document.getElementById( 'selectorLicencia');
+const soloVuelo = 199;
+const vueloyHotel = 399;
+const selector = document.getElementById( 'selectorLicencia');
 const descripcionLicencia = document.getElementById('descripcion');
 const comprarBtn = document.getElementById('comprarBtn');
-let precioLicencia = document.getElementById('precio');
+let precio = document.getElementById('precio');
 
-selectorLicencia.addEventListener('change', function(){
-if (selectorLicencia.value === 'estandar'){
-  descripcionLicencia.textContent = 'Licencia Estándar : Acceso a funciones básicas del programa y soporte técnico simple.';
-  precioLicencia.textContent=` $${PreciolicenciaEstandar}`;
-} else if (selectorLicencia.value === 'premium') {
-  descripcionLicencia.textContent = 'Licencia Premium: Acceso completo a todas las características del programa y soporte técnico prioritario.';
-  precioLicencia.textContent = ` $${PreciolicenciaPremium}`;
+selector.addEventListener('change', function(){
+if (selector.value === 'estandar'){
+  descripcionLicencia.textContent = 'Solo vuelo : Solo cuenta con el ticket de vuelo';
+  precio.textContent=` $${soloVuelo}`;
+} else if (selector.value === 'premium') {
+  descripcionLicencia.textContent = 'Vuelo y hotel: Cuenta con el ticket y estadia en un hotel cercano al aeropuesto por dos dias y una noche';
+  precio.textContent = ` $${vueloyHotel}`;
 } else {
-  descripcionLicencia.textContent = 'Seleccione una Licencia';
-  precioLicencia.textContent = `$`;
+  descripcionLicencia.textContent = 'Seleccione un paquete';
+  precio.textContent = `$`;
 }
 });
 
@@ -25,7 +25,7 @@ if (selectorLicencia.value === 'estandar'){
     Swal.fire({
       icon:'error',
       title:'Advertencia',
-      text:'Escoja una licencia primero.',
+      text:'Escoja un paquete primero.',
       confirmButtonText:'Entendido'
     })
     }
@@ -33,9 +33,9 @@ if (selectorLicencia.value === 'estandar'){
       Swal.fire({
         icon:'question',
         title:'Confirmar Compra',
-        text:'¿Estás seguro de comprar la licencia?',
+        text:'¿Estás seguro de reservar este paquete?',
         showCancelButton: true,
-        confirmButtonText:'Sí, Comprar',
+        confirmButtonText:'Sí, reservar',
         cancelButtonText: 'Cancelar',
       }).then((result) => {
 
@@ -43,3 +43,5 @@ if (selectorLicencia.value === 'estandar'){
     }
   
   });
+
+  
