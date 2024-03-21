@@ -30,12 +30,12 @@
 .price__element--best{
     width: 370px;
     padding: 60px 40px;
-    background-color: #E6C30A;
-    --color-plan: rgb(255 255 255 / 75%);
-    --color-price: #819295;
-    --bg-cta: #819295;
-    --color-cta: #FFF;
-    --color-items: #819295;
+    background-color: #e5e5f7;
+    --color-plan:#0033cc;
+    --color-price: #1D293F;
+    --bg-cta: #696871;
+    --color-cta: #0033cc;
+    --color-items: #696871;
 }
 
 .price__element:hover{
@@ -73,4 +73,10 @@
     font-weight: 600;
     color: var(--color-cta);
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+}
+
+.subtitle{
+
+    text-align: center;
+    font-size: 45px;
 }
