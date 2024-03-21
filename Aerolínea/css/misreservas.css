@@ -19,10 +19,10 @@
     border-radius: 10px;
     width: 330px;
     padding: 40px;
-    --color-plan: #696871;
+    --color-plan: #0033cc;
     --color-price: #1D293F;
     --bg-cta: #fff;
-    --color-cta: #5454D4;
+    --color-cta: #4970c8;
     --color-items: #696871;
     transition: all 0.4s;
 }
@@ -30,17 +30,17 @@
 .price__element--best{
     width: 370px;
     padding: 60px 40px;
-    background-color: #FF7143;
-    --color-plan: rgb(255 255 255 / 75%);
-    --color-price: #fff;
-    --bg-cta: #9F3919;
-    --color-cta: #FFF;
-    --color-items: #fff;
+    background-color: #e5e5f7;
+    --color-plan:#0033cc;
+    --color-price: #1D293F;
+    --bg-cta: #696871;
+    --color-cta: #0033cc;
+    --color-items: #696871;
 }
 
 .price__element:hover{
     transform: scale(1.05);
-    transition: all 0.8s;
+    transition: all 0.8s; 
 }
 
 .price__name{
