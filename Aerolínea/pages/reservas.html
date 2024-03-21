@@ -82,6 +82,8 @@
       <br>
       
   </div>
+
+  <h2> Reservas </h2>
  
   <div class="container px-4">
     <div class="row gx-5">
@@ -136,6 +138,55 @@
           </div>
         </div>
 
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6 col-xl-4">
+            <div class="card" style="border-radius: 20px;">
+              <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light"
+                data-mdb-ripple-color="light">
+                <img src="../img/paris.jpeg"
+                style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"
+                  alt="Licencia de Software" />
+                <a href="#!">
+                  <div class="mask"></div>
+                </a>
+              </div>
+              <div class="card-body pb-0">
+                <div class="mb-2">
+                  <h5 class="card-title">Seleccione un paquete:</h5>
+                  <select class="form-select" id="selectorLicencia">
+                    <option value="ninguno" id="ninguno">Seleccione una Opción de paquete</option>
+                    <option value="estandar" id="opcionEstandar">Vuelo</option>
+                    <option value="premium" id="opcionPremium">Vuelo y hotel</option>
+                  </select>
+                  <p class="card-text mt-3"> <span id="descripcion">Vuelo con destino a Paris, Francia <br>
+                    fecha: 07/11/24 <br>
+                    Hora: :30 AM
+                  </span></p>
+                </div>
+              </div>
+              <hr class="my-0" />
+              <div class="card-body pb-0 mb-3">
+                <div class="d-flex justify-content-between">
+                  <p class="card-text">Subtotal: <span class="text-dark small" id="precio">$</span></p>
+                  
+                </div>
+              </div>
+              <hr class="my-0" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+                  <a href="../pages/reservas.html" class="text-dark fw-bold cancelar">Cancelar</a>
+                  <button type="button" class="btn btn-dark" id="comprarBtn">Confirmar compra</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+    </div>
+
           <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6 col-xl-4">
               <div class="card" style="border-radius: 15px;">
@@ -184,14 +235,59 @@
         <br>
       </div>
       </div>
+
   
+  <div id="footerContenedor">
+
+    <div class="container text-center">
+      <div class="row row-cols-12">
+          <div class="col">
+
+              <h2>
+                  Redes sociales
+              </h2>
+              <br><br>
+          </div>
+      </div>
+  </div>
+  <div class="container text-center">
+      <div class="row row-cols-12">
+
+          <div class="col-sm-4">
+
+              <a href="https://instagram.com/cc_15s?igshid=OGQ5ZDc2ODk2ZA==">
+                  <img class="imagen2" src="../img/instagram.png" width="40">
+              </a>
+              <a href="https://instagram.com/cc_15s?igshid=OGQ5ZDc2ODk2ZA==">
+              </a>
+
+          </div>
+          <div class="col-sm-4">
+              <a href="https://www.facebook.com/emilynicole.jacobocampos?mibextid=9R9pXO">
+                  <img class="imagen2" src="../img/facebook.png" width="40">
+              </a>
+              <a href="https://www.facebook.com/emilynicole.jacobocampos?mibextid=9R9pXO">
+              </a>
+          </div>
+          <div class="col-sm-4">
+              <a href="https://wa.me/72089786">
+                  <img class="imagen2" src="../img/whatsapp.png" width="40">
+              </a>
+
+          </div>
+      </div>
+  </div>
+
+</div>
+
+<br>
+<div class="container text-center">
+
+
+</div>
+  </div>
   
 
-          
-      
-  
-
-  <div id="footerContenedor"></div>
 
   <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
