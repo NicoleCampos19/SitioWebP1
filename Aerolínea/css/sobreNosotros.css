@@ -140,17 +140,14 @@ a{
 
 
 
-
-
-
-
-
   
   @media only screen and (max-width: 770px) {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
     }
+
+  
 
   }
   
