@@ -1,5 +1,14 @@
-body{
-    background-image: url(../img/fondoLicencias\ \(1\).png);
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  #cabezeravuelossemanales{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 20px;
+    border-left: 3px solid yellow;
 }
 
 .navbar{
