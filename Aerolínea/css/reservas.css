@@ -53,13 +53,10 @@
 .container2{
     width:85%;
     margin:0px 5px 0px auto;
-    flex-direction: column;
+    flex-direction: center;
     float: center;
     align-items: center;
   }
-
-
-
 
 
 
